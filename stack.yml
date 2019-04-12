@@ -12,7 +12,7 @@ services:
       MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      -   mballen-spring-mvc:/var/lib/mysql
+      - mballen-spring-mvc:/var/lib/mysql
 
 volumes:
   mballen-spring-mvc:
